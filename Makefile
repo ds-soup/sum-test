@@ -6,7 +6,7 @@ sum-test: sum.o main.o
 
 sum.o: sum.h sum.cpp
 
-main.o: sum.h main,cpp
+main.o: sum.h main.cpp
 
 clean:
 	rm -rf sum-test
